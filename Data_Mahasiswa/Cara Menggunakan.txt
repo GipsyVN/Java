@@ -1,0 +1,3 @@
+import dahulu data_mahasiswa.sql ke dalam database yang bernama "data_mahasiswa", jika tidak ada buat dulu database dengan nama "data_mahasiswa".
+
+Di netbeans, gunakan fitur open project dan pilih folder ini (Data_Mahasiswa)
