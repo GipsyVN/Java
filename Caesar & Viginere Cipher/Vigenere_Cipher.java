@@ -6,7 +6,7 @@ public class Vigenere_Cipher {
     public static char plainChar, cipherChar, keyChar, encryptedChar, decryptedChar;
     public static int shift, pilih;
     
-    public static String hapusSpaci(String text) {
+    public static String hapusSpace(String text) {
         return text.replaceAll(" ", "");
     }
 
@@ -19,8 +19,8 @@ public class Vigenere_Cipher {
         key = scan.nextLine();
         
         ciphertext = new StringBuilder();
-        text = hapusSpaci(text.toUpperCase());
-        key = hapusSpaci(key.toUpperCase());
+        text = hapusSpace(text.toUpperCase());
+        key = hapusSpace(key.toUpperCase());
         
         for (int i = 0, j = 0; i < text.length(); i++) {
             plainChar = text.charAt(i);
@@ -48,8 +48,8 @@ public class Vigenere_Cipher {
         key = scan.nextLine();
         
         plaintext = new StringBuilder();
-        text = hapusSpaci(text.toUpperCase());
-        key = hapusSpaci(key.toUpperCase());
+        text = hapusSpace(text.toUpperCase());
+        key = hapusSpace(key.toUpperCase());
         
         for (int i = 0, j = 0; i < text.length(); i++) {
             cipherChar = text.charAt(i);
