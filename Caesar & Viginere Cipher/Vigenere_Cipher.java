@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/**
+ *
+ * @author Marcelius Vino
+ */
 public class Vigenere_Cipher {
     public static StringBuilder ciphertext, plaintext;
     public static String text, key, encryptedText, decryptedText;
