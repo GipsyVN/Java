@@ -36,7 +36,7 @@ public class Vigenere_Cipher {
         }
         
         encryptedText = ciphertext.toString();
-        System.out.println("Teks Terenkripsi: " + ciphertext + "\n");
+        System.out.println("Teks Terenkripsi: " + encryptedText + "\n");
     }
     
     public static void decrypt() {
