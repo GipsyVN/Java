@@ -13,8 +13,8 @@ public class Tebel_Vigenere {
         char table[][] = new char[26][26];
         String alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        for(int i = 0; i < 26; i++){
-            for(int j = 0; j < 26; j++){
+        for(int i = 0; i < table.length; i++){
+            for(int j = 0; j < table[0].length; j++){
                 table[i][j] = alpha.charAt((i + j) % 26);
             }
         }
